@@ -1,0 +1,16 @@
+go("https://esther.rice.edu/selfserve/twbkwbis.P_WWWLogin")
+enter("User ID:", """)
+enter("PIN:", "")
+click("Login button")
+sleep(5)
+click("Student Services & Account Information")
+click("Course and Instructor Evaluation Results")
+click("Proceed to Evaluations button")
+
+click("Term:"); click("Spring 13")
+click("Search Type:"); click("Course Evaluation")
+click("Subject:"); click("Air Force Science (AFSC)")
+click("Course:") 
+click("AFSC 102 002 (27975) - FOUNDATION OF THE USAF II")
+
+click("Search button")
